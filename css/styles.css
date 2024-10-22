@@ -11181,3 +11181,11 @@ html {
       line-height: 2.5rem;
   }
 }
+.imagen {
+  transition: transform 0.5s ease; /* Efecto de transición suave de 0.5 segundos */
+}
+
+.imagen:hover {
+  -webkit-transform: rotate(360deg); /* Rotación para navegadores WebKit */
+  transform: rotate(360deg); /* Rotación estándar */
+}
